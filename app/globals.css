@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+ --background: #ffffff;
+ --coco: #5c0202;
+ --dark-coco: #370303;
+ --light-coco: #f3eeed;
+ --gray-stroke: #c8c8c8;
+}
+
+@theme {
+ --color-base: var(--gray-stroke);
+ --color-primary: var(--coco);
+
+ --font-montserrat: var(--font-montserrat), sans-serif;
+ --font-playfair: var(--font-playfair), serif;
+
+ --tracking-tight-custom: -2%;
+ --tracking-tighter-custom: -4%;
+}
+
+@layer base {
+ .h1-main {
+  @apply font-playfair italic text-[96px] leading-26 tracking-tighter-custom text-primary-coco;
+ }
+
+ .h1-span {
+  @apply font-montserrat not-italic font-medium text-[80px] leading-26 tracking-tight-custom uppercase;
+ }
+
+ .nav-link {
+  @apply font-montserrat font-normal text-[16px] leading-6.5 text-primary-coco;
+ }
+}
+
+body {
+ background: var(--background);
+ color: var(--coco);
+ font-family: Arial, Helvetica, sans-serif;
+}
