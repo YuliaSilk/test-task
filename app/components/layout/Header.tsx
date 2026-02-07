@@ -5,7 +5,7 @@ import Button from "../ui/Button";
 
 export default function Header() {
  return (
-  <header className="w-full pt-8.75">
+  <header className="w-full h-29.5 bg-white position fixed z-10 flex items-center">
    <div className="container-custom flex justify-between items-center">
     <Logo />
     <nav className="flex gap-10">

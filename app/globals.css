@@ -6,14 +6,16 @@
  --dark-coco: #370303;
  --light-coco: #f3eeed;
  --gray-stroke: #c8c8c8;
+ --black: #151515;
 }
 
 @theme {
- --color-base: var(--gray-stroke);
+ --color-base: var(--black);
  --color-primary: var(--coco);
  --color-dark: var(--dark-coco);
  --color-light: var(--light-coco);
  --color-gray: var(--gray-stroke);
+ --color-background: var(--background);
 
  --font-montserrat: var(--font-montserrat), sans-serif;
  --font-playfair: var(--font-playfair), serif;
@@ -35,7 +37,7 @@
  }
 
  .h1-span {
-  @apply font-montserrat not-italic font-medium text-[80px] leading-26 tracking-tight-custom uppercase;
+  @apply font-montserrat not-italic font-medium text-[80px] leading-26 tracking-tight-custom;
  }
 
  .nav-link {
