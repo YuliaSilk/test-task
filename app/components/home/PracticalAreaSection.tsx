@@ -1,6 +1,6 @@
 import {areas} from "@/app/constants/practiceAreas";
 
-const LegalExpertise = () => {
+const PracticalArea = () => {
  return (
   <section className="container-custom pt-20">
    <div className="flex flex-col items-center justify-center gap-6 mb-6 ">
@@ -44,4 +44,4 @@ const LegalExpertise = () => {
  );
 };
 
-export default LegalExpertise;
+export default PracticalArea;

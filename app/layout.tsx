@@ -1,6 +1,7 @@
 import {Montserrat, Playfair_Display, Inter} from "next/font/google";
 import "./globals.css";
 import Header from "./components/layout/Header";
+import ContactWidget from "./components/layout/ContactWidget";
 
 const montserrat = Montserrat({
  subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
    >
     <Header />
     <main>{children}</main>
+    <ContactWidget />
    </body>
   </html>
  );

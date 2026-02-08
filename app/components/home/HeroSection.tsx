@@ -2,12 +2,7 @@ import React from "react";
 import {StarIcon} from "../ui/StarIcon";
 import Button from "../ui/Button";
 import {GoArrowRight} from "react-icons/go";
-
-const STATS = [
- {value: "98%", label: "Client Satisfaction Rate"},
- {value: "500+", label: "Successful Cases Handled"},
- {value: "25+", label: "Years Legal Experience"},
-];
+import {STATS} from "../../constants/stats";
 
 export default function Hero() {
  return (
@@ -45,7 +40,7 @@ export default function Hero() {
        <span className="font-playfair font-semibold text-[56px] leading-16 tracking-tight-custom text-primary">
         {stat.value}
        </span>
-       <p className="text-[14px] leading-6.5  ">{stat.label}</p>
+       <p className="text-[14px] leading-6.5">{stat.label}</p>
       </div>
      ))}
     </div>

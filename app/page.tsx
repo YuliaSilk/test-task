@@ -1,5 +1,5 @@
-import Hero from "./components/home/Hero";
-import LegalExpertise from "./components/home/LegalExpertiseSection";
+import Hero from "./components/home/HeroSection";
+import LegalExpertise from "./components/home/PracticalAreaSection";
 import TeamSection from "./components/home/TeamSection";
 
 export default function Home() {
