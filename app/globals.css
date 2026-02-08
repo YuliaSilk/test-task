@@ -41,9 +41,23 @@
  .h1-span {
   @apply font-montserrat not-italic font-medium text-[80px] leading-26 tracking-tight-custom;
  }
+ .section-title {
+  @apply font-medium text-[40px] leading-12 tracking-tight-custom;
+ }
 
+ .section-title-italic {
+  @apply font-playfair  italic;
+ }
+
+ .section-label {
+  @apply flex items-center justify-center gap-2;
+ }
+
+ .section-label span {
+  @apply font-montserrat text-base text-[16px]  leading-6;
+ }
  .nav-link {
-  @apply font-montserrat font-normal text-[16px] leading-6.5 text-primary;
+  @apply font-montserrat  text-[16px] leading-6.5 text-primary;
  }
 }
 

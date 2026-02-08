@@ -1,7 +1,6 @@
 import React from "react";
 import {StarIcon} from "../ui/StarIcon";
 import Button from "../ui/Button";
-import {GoArrowRight} from "react-icons/go";
 import {STATS} from "../../constants/stats";
 
 export default function Hero() {
@@ -24,12 +23,7 @@ export default function Hero() {
      <p className="font-base text-[20px] text-5 leading-8 mb-10">
       Empowering individuals and businesses through every legal journey, turning complexity into clarity.
      </p>
-     <Button>
-      Schedule a Consultation
-      <span>
-       <GoArrowRight />
-      </span>
-     </Button>
+     <Button showArrow>Schedule a Consultation</Button>
     </div>
     <div className="flex gap-4 ">
      {STATS.map((stat, index) => (

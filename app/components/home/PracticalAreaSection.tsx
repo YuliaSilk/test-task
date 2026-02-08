@@ -4,13 +4,13 @@ const PracticalArea = () => {
  return (
   <section className="container-custom pt-20">
    <div className="flex flex-col items-center justify-center gap-6 mb-6 ">
-    <div className="flex items-center justify-center gap-2 ">
+    <div className="section-label">
      <div className="w-3 h-3 rounded-full bg-primary" />
-     <span className="font-montserrat text-base text-[16px]  leading-6">Practice Area</span>
+     <span>Practice Area</span>
     </div>
-    <h2 className="font-medium text-[40px] leading-12 tracking-tight-custom ">
+    <h2 className="section-title">
      Areas of
-     <span className="font-playfair font-normal italic"> Legal Expertise</span>
+     <span className="section-title-italic"> Legal Expertise</span>
     </h2>
     <p className="text-[20px] text-base">
      Discover our core legal services, backed by experience and a commitment to justice.

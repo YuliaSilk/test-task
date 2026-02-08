@@ -1,10 +1,5 @@
 import {GoArrowRight} from "react-icons/go";
-
-interface TeamCardProps {
- name: string;
- surname: string;
- specialties: string[];
-}
+import type {TeamCardProps} from "../types";
 
 const TeamCard = ({name, surname, specialties}: TeamCardProps) => {
  return (
