@@ -31,7 +31,7 @@ export default function Hero() {
        key={index}
        className="w-51 flex flex-col gap-4 items-center justify-center"
       >
-       <span className="font-playfair font-semibold text-[56px] leading-16 tracking-tight-custom text-primary">
+       <span className="font-playfair font-semibold text-[56px] leading-16 tracking-tight-custom text-primary not-italic">
         {stat.value}
        </span>
        <p className="text-[14px] leading-6.5">{stat.label}</p>

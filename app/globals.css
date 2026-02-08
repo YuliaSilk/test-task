@@ -22,7 +22,7 @@
  --font-inter: var(--font-inter), sans-serif;
 
  --tracking-tight-custom: -2%;
- --tracking-tighter-custom: -4%;
+ --tracking-tighter-custom: -8%;
 
  --breakpoint-desktop: 1440px;
 
@@ -39,7 +39,7 @@
  }
 
  .h1-span {
-  @apply font-montserrat not-italic font-medium text-[80px] leading-26 tracking-tight-custom;
+  @apply font-montserrat not-italic font-medium text-[80px] leading-[0.9] tracking-tight-custom;
  }
  .section-title {
   @apply font-medium text-[40px] leading-12 tracking-tight-custom;
