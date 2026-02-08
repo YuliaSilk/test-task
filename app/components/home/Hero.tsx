@@ -11,7 +11,7 @@ const STATS = [
 
 export default function Hero() {
  return (
-  <section className="container-custom grid grid-cols-2 gap-10  mt-29.5">
+  <section className="container-custom grid grid-cols-2 gap-10  mt-29.5 pb-10">
    <div className="w-full pt-20">
     <div className="mb-29.25">
      <div className="h-7  w-fit bg-light flex items-center gap-2 mb-6 px-2  ">

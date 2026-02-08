@@ -25,6 +25,8 @@
  --tracking-tighter-custom: -4%;
 
  --breakpoint-desktop: 1440px;
+
+ /* --border-width-hairline: 0.5px; */
 }
 
 @layer base {
